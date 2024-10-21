@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="CurriculoDeyvid.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <title>Deyvid Oliveira</title>
+</head>
+
+<body>
+    <nav class="navbar fixed-top">
+        <div class="container-fluid d-flex justify-content-center">
+            <a class="menuDanilo mx-3" href="#apresentacao">Deyvid Oliveira</a>
+            <a class="menuDanilo mx-3" href="#sobre">Sobre</a>
+            <a class="menuDanilo mx-3" href="#formacao">Formação Acadêmica</a>
+            <a class="menuDanilo mx-3" href="#experiencia">Experiência Profissional</a>
+            <a class="menuDanilo mx-3" href="#contrate-me">Contrate-me</a>
+        </div>
+    </nav>
+    <div id="apresentacao" class="bcgColor scrollMenu">
+        <div class="container-sm">
+            <div class="row align-items-center">
+                <div class="col-4">
+                    <img id="foto" src="img/foto perfil rec.png"Foto de Deyvid Oliveira" title="Deyvid Oliveira">
+                </div>
+                <div class="col-8 text-center">
+                    <h1>Deyvid dos Santos Oliveira</h1>
+                    <h4>(Analista de Sistemas)</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sobre" class="container-sm margin scrollMenu">
+        <h3>Sobre:</h3>
+        <div class="card topBcgSobre my-2"></div>
+        <div class="container-sm">
+            <p class="text-justify">Olá! Sou Deyvid dos santos oliveira, um estudante de 24 anos apaixonado por Análise e Desenvolvimento de Sistemas. Desde jovem, sempre fui fascinado por como a tecnologia transforma o mundo ao nosso redor. Atualmente, estou imerso no universo dos códigos, algoritmos e estruturas de dados, buscando entender a complexidade dos sistemas que usamos diariamente. Além dos estudos, adoro explorar novos frameworks e ferramentas, mantendo-me atualizado com as últimas tendências do setor. Nas horas vagas, gosto de jogar videogames, assistir a documentários sobre tecnologia e ler sobre inovação. Meu objetivo é criar soluções que não só resolvam problemas, mas também tornem a vida das pessoas mais eficiente e divertida. Estou sempre aberto a desafios e pronto para aprender algo novo!
+            </p>
+            <p style="text-align:center"> 
+                <a href="https://github.com/" target="_blank"><img src="img/github_nome.png" height="50px" alt="icon Github" title="Github"></a> 
+                
+                
+                <a href="https://www.linkedin.com/in/deyvid-oliveira-7b651a185/" target="_blank"><img src="img/linkedIn.png" height="35px" alt="icon linkedin" title="linkedin"></a>
+                <div class="card topBcgIcons my-2"></div>
+            </p>
+        </div>
+    </div>
+    <div id="formacao" class="bcgColor margin scrollMenu">
+        <div class="container-sm ">
+            <h3>Formação Acadêmica:</h3>
+            <div class="card topBcgFormacao my-2"></div>
+            <ul>
+                <li>Redes de Computadores - Ipesu (2018 - 2020)</li>
+                <li>Análise e Desenvolvimento de Sistemas - Senac PE (2024 - Em andamento)</li>
+            </ul>
+        </div>
+    </div>
+    <div id="experiencia" class="margin scrollMenu">
+        <div class="container-sm">
+            <h3>Experiência Profissional:</h3>
+            <div class="card topBcgExp my-2"></div>
+            <div class="table-responsive mx-n1 px-1 scrollbar">
+                <table class="table mb-0 border-translucen table-striped">
+                    <thead>
+                        <tr>
+                            <th class="text-center tblWidth">Instituição</th>
+                            <th class="text-center">Descrição</th>
+                            <th class="text-center tblWidth">Período</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-center">Narciso Enxovais</td>
+                            <td class="text-justify">Analista de suporte de Sistema</td>
+                            <td class="text-center">2020 - 2024</td>
+                        </tr>
+                        <tr>
+                            <td class="text-center">Mobs2</td>
+                            <td class="text-justify">Analista de Sustentação e qualidade</td>
+                            <td class="text-center">2024 - Atual</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="contrate-me" class="margin scrollMenu bcgColor">
+        <div class="container-sm">
+            <h3>Contrate-me:</h3>
+            <div class="card topBcgEnd my-2"></div>
+            <form onsubmit="return validateForm()">
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome:</label>
+                    <input type="text" class="form-control" id="nome" required>
+                </div>
+                <div class="mb-3">
+                    <label for="sobrenome" class="form-label">Sobrenome:</label>
+                    <input type="text" class="form-control" id="sobrenome" required>
+                </div>
+                <div class="mb-3">
+                    <label for="telefone" class="form-label">Telefone:</label>
+                    <input type="tel" class="form-control" id="telefone" placeholder="(xx) xxxxx-xxxx" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail:</label>
+                    <input type="email" class="form-control" id="email" placeholder="MeuEmail@gmail.com" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem:</label>
+                    <textarea class="form-control" id="mensagem" rows="4" required></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="lingua" class="form-label">Língua:</label>
+                    <select class="form-select" id="lingua" required>
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="ingles">Inglês</option>
+                        <option value="espanhol">Espanhol</option>
+                        <option value="frances">Francês</option>
+                        <option value="portugues">Português (pt-br)</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="arquivo" class="form-label">Upload de Arquivo:</label>
+                    <input type="file" class="form-control" id="arquivo" accept=".pdf, .doc, .docx, .jpeg, .png" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Linguagens Preferidas:</label>
+                    <div>
+                        <input type="checkbox" id="linguagem1" value="Java">
+                        <label for="linguagem1">Java</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="linguagem2" value="Python">
+                        <label for="linguagem2">Python</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="linguagem3" value="JavaScript">
+                        <label for="linguagem3">JavaScript</label>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Tipo de Banco de Dados:</label>
+                    <div>
+                        <input type="radio" id="ql serve" name="banco" value="Sql serve" required>
+                        <label for="Sql serve">Sql serve</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="MariaDB" name="banco" value="MariaDB" required>
+                        <label for="MariaDB">MariaDB</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="MongoDB" name="banco" value="MongoDB" required>
+                        <label for="MongoDB">MongoDB</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="FireBird" name="banco" value="FireBird" required>
+                        <label for="FireBird">FireBird</label>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="turno" class="form-label">Turno de Preferência:</label>
+                    <select class="form-select" id="turno" required>
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="manha">Manhã</option>
+                        <option value="tarde">Tarde</option>
+                        <option value="noite">Noite</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="horario" class="form-label">Melhor Horário para Reuniões:</label>
+                    <input type="time" class="form-control" id="horario" required>
+                </div>
+                <div class="mb-3">
+                    <label for="dataEntrega" class="form-label">Previsão de Entrega:</label>
+                    <input type="date" class="form-control" id="dataEntrega" required>
+                </div>
+                <button type="reset" class="btn btn-secondary">Limpar</button>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </div>

@@ -1,0 +1,97 @@
+#foto {
+    width: 100%;
+    margin-top: 40px;
+}
+
+nav {
+    background-color: #1E3A5F;
+}
+
+footer {
+    background-color: #1E3A5F;
+    color: #E0F0FF;
+}
+
+a.menuDanilo {
+    color: #E0F0FF;
+    text-decoration: none;
+}
+
+a.menuDanilo:hover {
+    color: #B0C7E0;
+}
+
+a.formacao {
+    color: #1E3A5F;
+    text-decoration: none;
+}
+
+a.formacao:hover {
+    color: #B0C7E0;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.margin {
+    padding: 20px;
+}
+
+.scrollMenu {
+    scroll-margin-top: 40px;
+}
+
+.bcgColor {
+    background-color: #E0F0FF;
+}
+
+.topBcgSobre {
+    background-color: #1E3A5F;
+    width: 8%;
+}
+
+.topBcgFormacao {
+    background-color: #1E3A5F;
+    width: 26%;
+}
+
+.topBcgExp {
+    background-color: #1E3A5F;
+    width: 28%;
+}
+
+.topBcgEnd {
+    background-color: #1E3A5F;
+    width: 15%;
+}
+
+.topBcgIcons {
+    background-color: #1E3A5F;
+    width: 100%;
+}
+
+.tblWidth {
+    width: 20%;
+}
+
+form label {
+    color: #1E3A5F;
+}
+
+form input, form select, form textarea {
+    background-color: #E0F0FF;
+    border: 1px solid #1E3A5F;
+}
+
+form input[type="submit"], form input[type="reset"] {
+    background-color: #1E3A5F;
+    color: #E0F0FF;
+    border: none;
+    padding: 10px 20px;
+}
+
+form input[type="submit"]:hover, form input[type="reset"]:hover {
+    background-color: #B0C7E0;
+    color: #1E3A5F;
+}
